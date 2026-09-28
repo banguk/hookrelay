@@ -1,0 +1,24 @@
+# Binaries
+/bin/
+/server
+/receiver
+*.exe
+*.test
+*.out
+
+# Go
+/vendor/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json

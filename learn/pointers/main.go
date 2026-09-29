@@ -60,5 +60,4 @@ func main() {
 
 	var missing *Webhook
 	fmt.Println("missing is nil", missing == nil)
-
 }
